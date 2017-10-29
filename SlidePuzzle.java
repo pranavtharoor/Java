@@ -23,7 +23,7 @@ public class SlidePuzzle extends JFrame {
 	JButton[][] numberButton = new JButton[rows][columns];
 	JButton shuffleButton = new JButton("Shuffle");
 	final int CELL_HEIGHT = 60, CELL_LENGTH = 60, CELL_PADDING = 10, PANEL_BORDER = 25;
-	Color backgroundColor = new Color(204, 255, 255);
+	Color backgroundColor = new Color(103,200,190);
 	Color cellColor = new Color(102, 204, 255);
 	Color textColor = new Color(102, 102, 102);
 	Color cellColorCorrect = new Color(102, 204, 102);
